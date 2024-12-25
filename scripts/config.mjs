@@ -9,6 +9,9 @@ export const commonOptions = {
   jsx: 'automatic',
   loader: {
     '.module.css': 'local-css',
+    '.ttf': 'copy',
+    '.woff': 'copy',
+    '.woff2': 'copy',
     '.svg': 'dataurl'
   },
   outfile: 'public/dist/bundle.js',
